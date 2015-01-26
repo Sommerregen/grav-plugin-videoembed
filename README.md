@@ -38,7 +38,7 @@ Will be converted to:
 ## Installation
 There are two ways to install plugin:
 
-1. (Recomended) Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `videoembed`. 
+1. (Recomended) Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `videoembed`.
 You should now have all the plugin files under `/your/site/grav/user/plugins/videoembed`
 
 2. Simply add plugin dependency into `.dependencies` file, e.g:
@@ -128,7 +128,7 @@ videoembed:
 
 You can override default `embed_options` for each video, for do this simply add params to end of video url. Your params will be applied on default embed options.
 
-Example (using default options), link 
+Example (using default options), link
 ```
 http://youtu.be/AsdjHDHksdf?autoplay=0&wmode=transparent
 ```
