@@ -5,6 +5,13 @@ Embed Video plugin for [Grav CMS](http://getgrav.org)
 [![Code Coverage](https://scrutinizer-ci.com/g/maximkou/grav-plugin-videoembed/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/maximkou/grav-plugin-videoembed/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/127bf39f-d49a-4c9b-965d-2eb97e384fe4/mini.png)](https://insight.sensiolabs.com/projects/127bf39f-d49a-4c9b-965d-2eb97e384fe4)
 
+## ATTENTION:
+> **This project is DEAD! It has a long history and will no longer be maintained. It is recommended to switch to the official successor [MediaEmbed](https://github.com/sommerregen/grav-plugin-mediaembed) instead.**
+
+[**VideoEmbed**](https://github.com/maximkou/grav-plugin-videoembed) was originally maintained and developed by [Maxim Hodyrev](https://github.com/maximkou). It was abandoned in v1.3.0 released on 09/21/2014. As of **VideoEmbed v1.4.0** (released on 11/26/2014) I started to maintain it as a fork of the original project. Soon after fixing critical bugs, it turned out that VideoEmbed has to be modernized for speed, usability and extendibility. Starting from scratch [Grav MediaEmbed plugin](https://github.com/sommerregen/grav-plugin-mediaembed) becomes the official successor. Thus, any ideas and wishes you might have should better be posted in the [MediaEmbed issue tracker](https://github.com/sommerregen/grav-plugin-mediaembed/issues) :-) .
+
+## Introduction
+
 This plugin convert links to videos from popular sharing services to embed format. Supported services:
 
 * Youtube
@@ -38,7 +45,7 @@ Will be converted to:
 ## Installation
 There are two ways to install plugin:
 
-1. (Recomended) Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `videoembed`. 
+1. (Recomended) Download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `videoembed`.
 You should now have all the plugin files under `/your/site/grav/user/plugins/videoembed`
 
 2. Simply add plugin dependency into `.dependencies` file, e.g:
@@ -128,7 +135,7 @@ videoembed:
 
 You can override default `embed_options` for each video, for do this simply add params to end of video url. Your params will be applied on default embed options.
 
-Example (using default options), link 
+Example (using default options), link
 ```
 http://youtu.be/AsdjHDHksdf?autoplay=0&wmode=transparent
 ```
